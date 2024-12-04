@@ -1,7 +1,3 @@
-Here’s a `README.md` for the three Python scripts designed to detect backup solutions on **Windows**, **Linux**, and **macOS/Unix-like systems**:
-
----
-
 # Backup Detection Scripts
 
 This repository contains three Python scripts designed to detect backup solutions, services, and related processes on different systems: **Windows**, **Linux**, and **macOS/Unix-like systems**.
