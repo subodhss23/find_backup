@@ -143,6 +143,15 @@ def check_scheduled_tasks():
     else:
         print("No backup-related cron jobs found.")
 
+
+# check the amout of data being passed from one valut to backup
+def check_data_from_value_one(data_stream):
+    if type(data_stream) == "int":
+        print("now pass the data to steam")
+    else:
+        print("this is stop loss")
+
+
 def main():
     print("Starting to check for backup solutions and backup-related tasks on the system...\n")
     
