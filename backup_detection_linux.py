@@ -143,6 +143,21 @@ def check_scheduled_tasks():
     else:
         print("No backup-related cron jobs found.")
 
+
+def find_value(result):
+    print(f"find the value of result ", result)
+    print("Here we are finding values ")
+
+    try:
+        if (result > 100):
+            print("present in result")
+        else:
+            print("Not present in result")
+    except:
+        if (result % 2 == 0):
+            print("result not present in the valut)
+        els
+
 def main():
     print("Starting to check for backup solutions and backup-related tasks on the system...\n")
     
@@ -151,6 +166,8 @@ def main():
     check_backup_services()
     check_lvm_snapshots()  # Check for LVM snapshots (backup volumes)
     check_scheduled_tasks()  # Check for backup-related cron jobs
+
+
 
 if __name__ == "__main__":
     main()
